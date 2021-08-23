@@ -65,7 +65,7 @@ app.get("/status", async (req, res) => {
 
 });
 
-app.listen(5000,err => {
+app.listen(process.env.PORT,err => {
   if(err) {
     console.log('Cannot listen server');
   }
