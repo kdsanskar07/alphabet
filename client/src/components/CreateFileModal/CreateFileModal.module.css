@@ -1,0 +1,90 @@
+.ModalContent{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.Header{
+    background-color: #403c3c;
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+.NewFileForm{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 6%;
+    margin-top: 3%;
+    color: #403c3c;
+    font-size: large;
+    font-weight: bold;
+}
+.InputArea{
+    width: 87%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #403c3c;
+    margin-top: 3%;
+    border-radius: 0.2rem;
+}
+.InputArea div{
+    width: 9%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #403c3c;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+.InputArea Input{
+    width: 87%;
+    height: 90%;
+    font-size: large;
+    /* font-weight: bold; */
+    border: none;
+    outline: none;
+}
+.InputArea Input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.subimtButtons{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    margin-top: 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fileButton{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    color: #403c3c;
+    border: 2px solid #403c3c;
+    margin-right: 5%;
+    border-radius: 0.2rem;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fileButton:hover{
+    background-color: #403c3c;
+    color: white;
+}
+.ErrorMsg{
+    color: red;
+    font-size: small;
+}

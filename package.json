@@ -1,0 +1,28 @@
+{
+  "name": "alphabet",
+  "version": "1.0.0",
+  "description": "An online IDE",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdsanskar07/alphabet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdsanskar07/alphabet/issues"
+  },
+  "homepage": "https://github.com/kdsanskar07/alphabet#readme",
+  "dependencies": {
+    "bull": "^3.29.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12",
+    "uuid": "^8.3.2"
+  }
+}

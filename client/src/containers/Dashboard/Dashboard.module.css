@@ -1,0 +1,96 @@
+.Dashboard{
+    width :100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1f1f1f;
+}
+.EditorHeader{
+    width: 70%;
+    height: 4vh;
+    margin-top: 0.5%;
+    background-color: #403c3c;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+}
+.FileName{
+    width: 10%;
+    height: 100%;
+    background-color: #403c3c;
+    color: white;
+    border-right: 0.5px solid gray;
+    border-top: 0.5px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-left: 0.3%; */
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CreateFile{
+    width: 2%;
+    height: 70%;
+    border: 0.5px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.3%;
+    background-color: white;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+.CreateFile:active{
+    border: 2px solid black;
+}
+.EditorBottom{
+    width: 70%;
+    height: 6vh;
+    padding-bottom: .2%;
+    /* background-color: #28242c; */
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border-left: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    border-right: 0.5px solid gray; */
+}
+.RunButton{
+    width: 10%;
+    height: 70%;
+    border: 2px solid #403c3c;
+    margin-right: 2%;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #403c3c;
+    cursor: pointer;
+}
+.PlayIcon{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-right: 5%;
+}
+.RunButton:hover{
+    background-color: #403c3c;
+    color: white;
+}
+.RunButton:active{
+    background-color: white;
+    color: #403c3c;
+}

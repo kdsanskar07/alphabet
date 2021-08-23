@@ -1,0 +1,65 @@
+.CodeSettings{
+    width: 70%;
+    height: 4vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 0.8%;
+}
+.SettingsSide{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.EditorSettings{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: .5px solid gray;
+    border-radius: 0.2rem;
+    padding: 0.5px;
+}
+.EditorIcons{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.2rem;
+    color: white;
+}
+.EditorIcons:hover{
+    border:2px solid #cecece;
+    background-color: #cecece;
+    color: #1f1f1f;
+}
+.EditorIcons:active{
+    background-color: #cecece;
+    border: 2px solid black;
+    border-radius: .2rem;
+    color: #1f1f1f;
+}
+.IconSeperator{
+    width: 0.5px;
+    height: 100%;
+    background-color: gray;
+}
+.LangOptions{
+    width: 25%;
+    border: 0.5px solid gray;
+    margin-right: 5%;
+    height: 100%;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
